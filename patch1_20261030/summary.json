@@ -1,0 +1,26 @@
+{
+  "images": 20,
+  "observations": 28,
+  "parts": 111,
+  "review_status_counts": {
+    "ai_preannotated": 25,
+    "uncertain": 3
+  },
+  "human_verified": 0,
+  "source_bbox_preserved": true,
+  "original_108_files_checksum_verified": true,
+  "uncertain_observations": [
+    {
+      "observation_id": "WH__00000000000000042_i.jpg:R_L:WH__R_L__89",
+      "notes": "远处小目标；双弯臂和杆轴可辨，杆下段消失于植被，未连接穿过遮挡。灯头接合附近端点位置及连接点约有2像素不确定性，unknown不作为负例；无隐藏杆底。图像内左右ID不代表模板物理身份。"
+    },
+    {
+      "observation_id": "WH__00000000000000043_f.jpg:R_L:WH__R_L__90",
+      "notes": "原图逐视图检查；标注可见杆身及两条弯臂中心路径。支臂在可见灯具连接处停止（annotation_limit），不把灯壳末端当作杆臂端点；杆底被植被或围挡遮挡，不推断隐藏底端。部件编号仅为本图局部编号。 左侧支臂与塔吊重叠，分段记录；远端灯具连接及遮挡边界不清，保留 uncertain/unknown。"
+    },
+    {
+      "observation_id": "WH__00000000000000045_l.jpg:R_L:WH__R_L__90",
+      "notes": "右侧严重裁切。仅标可见左臂与靠边下部杆身候选轴线；上部杆轴及分叉点在画外或不可辨，不补隐藏连接。下部轴线位置接近右边界，标uncertain，起点unknown。 支臂仅至可见灯头接合处，annotation_limit不表示物理末端；未标隐藏杆底。部件ID为本图局部语义标识。"
+    }
+  ]
+}
